@@ -1,0 +1,61 @@
+{
+  "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts": {
+    "path": "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      },
+      "1": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts",
+      "sources": [
+        "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts"
+      ],
+      "names": [],
+      "mappings": ";;;AAEa,QAAA,eAAe,GAAoD;IAC9E,OAAO,EAAE,YAAY;IACrB,UAAU,EAAE,eAAe;IAC3B,gBAAgB,EAAE,qBAAqB;IACvC,QAAQ,EAAE,aAAa;IACvB,IAAI,EAAE,SAAS;IACf,cAAc,EAAE,mBAAmB;IACnC,SAAS,EAAE,cAAc;IACzB,kBAAkB,EAAE,uBAAuB;IAC3C,aAAa,EAAE,kBAAkB;IACjC,0BAA0B,EAAE,wBAAwB;IACpD,UAAU,EAAE,eAAe;IAC3B,IAAI,EAAE,SAAS;IACf,KAAK,EAAE,UAAU;IACjB,QAAQ,EAAE,aAAa;IACvB,QAAQ,EAAE,QAAQ;IAClB,QAAQ,EAAE,UAAU;IACpB,WAAW,EAAE,gBAAgB;IAC7B,YAAY,EAAE,iBAAiB;IAC/B,OAAO,EAAE,YAAY;IACrB,KAAK,EAAE,UAAU;IACjB,WAAW,EAAE,gBAAgB;IAC7B,iBAAiB,EAAE,sBAAsB;IACzC,kBAAkB,EAAE,uBAAuB;CAC5C,CAAC",
+      "sourcesContent": [
+        "import { ResourceTypes } from './ResourceTypes';\n\nexport const ResourceIdParam: { [key in keyof typeof ResourceTypes]: string } = {\n  COMPANY: 'company_id',\n  RESTAURANT: 'restaurant_id',\n  RESTAURANT_STATE: 'restaurant_state_id',\n  EMPLOYEE: 'employee_id',\n  SALE: 'sale_id',\n  SALE_MENU_ITEM: 'sale_menu_item_id',\n  MENU_ITEM: 'menu_item_id',\n  MENU_ITEM_RAW_ITEM: 'menu_item_raw_item_id',\n  MENU_CATEGORY: 'menu_category_id',\n  MENU_CATEGORY_EXTRA_OPTION: 'menu_category_extra_id',\n  EXTRA_ITEM: 'extra_item_id',\n  ROOM: 'room_id',\n  TABLE: 'table_id',\n  TERMINAL: 'terminal_id',\n  RAW_ITEM: 'raw_id',\n  PROVIDER: 'provider',\n  STORE_ENTRY: 'store_entry_id',\n  STORE_ACTION: 'store_action_id',\n  PAYMENT: 'payment_id',\n  EVENT: 'event_id',\n  RESERVATION: 'reservation_id',\n  EVENT_RESERVATION: 'event_reservation_id',\n  ADMIN_SUBSCRIPTION: 'admin_subscription_id',\n};\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4057c302497029c0c34861fac599c2830d99a616",
+    "contentHash": "2be43dd16bb2589d22635b0cfc3c62ce8cf326be0c606f404c4da470d303e666"
+  }
+}

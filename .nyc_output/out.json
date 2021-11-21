@@ -1,0 +1,40 @@
+{
+  "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts": {
+    "path": "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 29
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 369,
+      "1": 37,
+      "2": 37
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/archy/projects/holdmytable-frontend/src/frontend-admin/Enum/ResourceIdParam.ts"
+      ],
+      "names": [],
+      "mappings": "AAEA,OAAO,IAAM,eAAe,GAAoD;AAC9E,EAAA,OAAO,EAAE,YADqE;AAE9E,EAAA,UAAU,EAAE,eAFkE;AAG9E,EAAA,gBAAgB,EAAE,qBAH4D;AAI9E,EAAA,QAAQ,EAAE,aAJoE;AAK9E,EAAA,IAAI,EAAE,SALwE;AAM9E,EAAA,cAAc,EAAE,mBAN8D;AAO9E,EAAA,SAAS,EAAE,cAPmE;AAQ9E,EAAA,kBAAkB,EAAE,uBAR0D;AAS9E,EAAA,aAAa,EAAE,kBAT+D;AAU9E,EAAA,0BAA0B,EAAE,wBAVkD;AAW9E,EAAA,UAAU,EAAE,eAXkE;AAY9E,EAAA,IAAI,EAAE,SAZwE;AAa9E,EAAA,KAAK,EAAE,UAbuE;AAc9E,EAAA,QAAQ,EAAE,aAdoE;AAe9E,EAAA,QAAQ,EAAE,QAfoE;AAgB9E,EAAA,QAAQ,EAAE,UAhBoE;AAiB9E,EAAA,WAAW,EAAE,gBAjBiE;AAkB9E,EAAA,YAAY,EAAE,iBAlBgE;AAmB9E,EAAA,OAAO,EAAE,YAnBqE;AAoB9E,EAAA,KAAK,EAAE,UApBuE;AAqB9E,EAAA,WAAW,EAAE,gBArBiE;AAsB9E,EAAA,iBAAiB,EAAE,sBAtB2D;AAuB9E,EAAA,kBAAkB,EAAE;AAvB0D,CAAzE",
+      "sourcesContent": [
+        "import { ResourceTypes } from './ResourceTypes';\n\nexport const ResourceIdParam: { [key in keyof typeof ResourceTypes]: string } = {\n  COMPANY: 'company_id',\n  RESTAURANT: 'restaurant_id',\n  RESTAURANT_STATE: 'restaurant_state_id',\n  EMPLOYEE: 'employee_id',\n  SALE: 'sale_id',\n  SALE_MENU_ITEM: 'sale_menu_item_id',\n  MENU_ITEM: 'menu_item_id',\n  MENU_ITEM_RAW_ITEM: 'menu_item_raw_item_id',\n  MENU_CATEGORY: 'menu_category_id',\n  MENU_CATEGORY_EXTRA_OPTION: 'menu_category_extra_id',\n  EXTRA_ITEM: 'extra_item_id',\n  ROOM: 'room_id',\n  TABLE: 'table_id',\n  TERMINAL: 'terminal_id',\n  RAW_ITEM: 'raw_id',\n  PROVIDER: 'provider',\n  STORE_ENTRY: 'store_entry_id',\n  STORE_ACTION: 'store_action_id',\n  PAYMENT: 'payment_id',\n  EVENT: 'event_id',\n  RESERVATION: 'reservation_id',\n  EVENT_RESERVATION: 'event_reservation_id',\n  ADMIN_SUBSCRIPTION: 'admin_subscription_id',\n};\n"
+      ],
+      "sourceRoot": ""
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "ea6ea926c04a40f148f95d0cf87eee3d7e7f2e9a"
+  }
+}

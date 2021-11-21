@@ -1,0 +1,23 @@
+{
+  "name": "nyc-issue-xa24b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archfz/nyc-issue-Xa24b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archfz/nyc-issue-Xa24b/issues"
+  },
+  "homepage": "https://github.com/archfz/nyc-issue-Xa24b#readme",
+  "dependencies": {
+    "istanbul-lib-coverage": "3.0.2",
+    "nyc": "^15.1.0"
+  }
+}
